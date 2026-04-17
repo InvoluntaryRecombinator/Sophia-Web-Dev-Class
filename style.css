@@ -1,0 +1,139 @@
+body {
+    background-color: #BDD4DA;
+    color: #00231C;
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #014038;
+}
+
+main {
+    background-color: #F7F7F7;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #96BAA0;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+header, footer {
+    background-color: #96BAA0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #014038;
+    position: relative;
+}
+
+a {
+    color: #014038;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a, footer nav a {
+    color: #00231C;
+    background-color: #BDD4DA;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 1px solid #014038;
+}
+
+header nav a:hover, footer nav a:hover {
+    background-color: #F0C06D;
+}
+
+button {
+    background-color: #F0C06D;
+    color: #00231C;
+    border: 1px solid #00231C;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+main > img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 15px 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+table, th, td {
+    border: 1px solid #96BAA0;
+    padding: 10px;
+    text-align: center;
+}
+
+table td img {
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+/*-- Additional Custom Styles For Page-Specific Elements --*/
+
+/* Home Page promo banner */
+
+.promo-banner {
+    background-color: #F0C06D;
+    color: #00231C;
+    padding: 30px;
+    font-size: 1.8em;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px dashed #014038;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    margin: 10px 0 20px 0;
+}
+
+/* Custom Page apple tree image */
+
+#apple-tree {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* About Page business hours box */
+
+#business-hours {
+    background-color: transparent; 
+    padding: 10px;
+    border-radius: 8px; 
+    border: 5px solid #F0C06D; 
+    width: fit-content; 
+    margin: 0 auto 10px auto; 
+}
+
+hr {
+    display: none;
+}
